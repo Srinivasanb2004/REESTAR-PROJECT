@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header__desc{
+    color: gray;
+}
+
+.header__desc:hover{
+    cursor: pointer;
+}
+
+.container{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.box-one__img,.box-two__img,.box-three__img,.box-four__img{
+    height: 350px;
+    width: 300px;
+}
+
+.box-one,.box-two,.box-three,.box-four{
+    border:solid black 2px;
+    width: 300px;
+    text-align: center;     
+    padding: 2px;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.box-one__button,.box-two__button,.box-three__button,.box-four__button{
+   background-color: black;
+   color: white;
+   border: none;
+   padding: 5px;
+}
+
+.box-one__button,.box-two__button,.box-three__button,.box-four__button:hover{
+  cursor: pointer;
+ }
+
+ .footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    
+ }
+
+ .footer__title{
+    text-align: center;
+    
+ }
+
+ .contact-form{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+ }
+
+ .footer__button{
+    background-color: yellow;
+    border: none;
+    padding: 5px;
+    width: 400px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+ }
+
+ .footer__button:hover{
+    cursor: pointer;
+ }
+ 
+ 
+
+ 
+
+
+
+ 
